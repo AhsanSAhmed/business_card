@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #23252C;
+}
+.App{
+    margin: 50px;
+    border-radius: 10px;
+    height: 720px;
+    width: 320px;
+    background-color: #1A1B21;
+}
+
+.headerContainer > img{
+    height: 320px;
+    width: 320px;
+    border-radius: 10px 10px 0px 0px;
+}

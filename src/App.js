@@ -1,10 +1,11 @@
 import React from "react";
-import './App.css';
+import HeaderImage from "./components/HeaderImage"
+
 
 function App() {
   return (
     <div className="App">
-      
+      <HeaderImage />
     </div>
   );
 }
