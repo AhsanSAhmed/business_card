@@ -10,13 +10,94 @@ body{
 .App{
     margin: 50px;
     border-radius: 10px;
-    height: 720px;
+    height: 780px;
     width: 320px;
-    background-color: #1A1B21;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .headerContainer > img{
     height: 320px;
     width: 320px;
+    object-fit: cover;
     border-radius: 10px 10px 0px 0px;
+}
+
+.footerContainer{
+    height:64px;
+    width: 320px;
+    background-color: #D5D4D8;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    font-family: Jost;
+    text-align : center;
+    margin: 10px 30px 10px 30px;
+}
+
+.mainContainer > h2{
+    font-weight: bold;
+    letter-spacing: -0.1rem;
+}
+.mainContainer > h4{
+    color: orange;
+}
+.hyperlink{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.emailbtn, .linkedbtn{
+    height: 35px;
+    width: 115px;
+    border: 0;
+    border-radius: 5px;
+}
+.emailbtn{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emailbtn > img{
+    padding-right: 10px;
+}
+.emailbtn:hover{
+    background-color: rgb(234, 234, 234);
+}
+
+.linkedbtn{
+    background-color: #297FE5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedbtn > img{
+    padding-right: 10px;
+}
+.linkedbtn:hover{
+    background-color: #1f66bd;
+}
+
+.about, .interests{
+    text-align: start;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.footLogoBox > img{
+    padding: 10px;
 }
